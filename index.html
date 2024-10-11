@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000000;
+        }
+        .logo {
+            margin-bottom: 20px;
+            text-align: center; /* Center the logo */
+        }
+        .logo img {
+            width: 272px; /* Set a specific width for the logo */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .search-box {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #dcdcdc;
+            border-radius: 24px;
+            padding: 10px;
+            background-color: white;
+        }
+        .search-box input {
+            border: none;
+            outline: none;
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .search-box button {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 10px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            background-color: #f8f9fa;
+            border: 1px solid #dcdcdc;
+            border-radius: 4px;
+            padding: 10px 20px;
+            margin: 0 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .buttons button:hover {
+            background-color: #e8e8e8;
+        }
+    </style>
+</head>
+<script async src="https://cse.google.com/cse.js?cx=73d93e43f647a4bc2">
+</script>
+<body>
+    <div class="logo">
+        <img src="starfleet.png" alt="Starfleet Logo" />
+    </div>
+    <div class="gcse-searchbox-only">
+        <input type="text" placeholder="Search Google or type a URL" />
+    </div>
+    <div class="buttons">
+        <button>Search database</button>
+    </div>
+</body>
+</html>
